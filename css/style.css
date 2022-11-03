@@ -6,10 +6,20 @@
 body {
   background-color: rgb(247, 199, 112);
   color: rgb(78, 34, 34);
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 a:visited {
   color: inherit;
+}
+
+.home-link {
+  display: block;
+  margin-top: 40px;
+  margin-left: 25%;
+  font-size: 30px;
+  font-weight: 700;
+
 }
 
 .main-title {
@@ -25,7 +35,7 @@ a:visited {
   width: 400px;
   height: auto;
   border-radius: 5px;
-  box-shadow: 4px 3px 5px 1px black ;
+  box-shadow: 4px 3px 5px 1px black;
 }
 
 .text-container {
